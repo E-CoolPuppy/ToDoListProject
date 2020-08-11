@@ -28,15 +28,15 @@ class CompletedToDoViewController: UIViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let nextAddToDoVC = segue.destination as? AddToDoViewController {
-            nextAddToDoVC.previousToDoTVC = self
-        }
-        if let nextCompletedToDoVC = segue.destination as? CompletedToDoViewController {
-            if let choosenToDo = sender as? ToDoClass {
-                nextCompletedToDoVC.selectedToDo = choosenToDo
-                nextCompletedToDoVC.previousToDoTVC = self
-            }
-        }
+//        if let nextAddToDoVC = segue.destination as? AddToDoViewController {
+//            nextAddToDoVC.previousToDoTVC = self
+//        }
+//        if let nextCompletedToDoVC = segue.destination as? CompletedToDoViewController {
+//            if let choosenToDo = sender as? ToDoClass {
+//                nextCompletedToDoVC.selectedToDo = choosenToDo
+//                nextCompletedToDoVC.previousToDoTVC = self
+//            }
+//        }
     }
     
 
